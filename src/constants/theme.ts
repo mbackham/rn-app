@@ -1,6 +1,33 @@
 import { MD3LightTheme, MD3DarkTheme } from 'react-native-paper';
 import { THEME } from './config';
 
+export const Colors = {
+  light: {
+    text: '#11181C',
+    background: '#fff',
+    tint: THEME.COLORS.PRIMARY,
+    icon: '#687076',
+    tabIconDefault: '#687076',
+    tabIconSelected: THEME.COLORS.PRIMARY,
+  },
+  dark: {
+    text: '#ECEDEE',
+    background: '#151718',
+    tint: '#fff',
+    icon: '#9BA1A6',
+    tabIconDefault: '#9BA1A6',
+    tabIconSelected: '#fff',
+  },
+};
+
+export const Fonts = {
+  regular: undefined,
+  medium: undefined,
+  bold: undefined,
+  mono: 'SpaceMono',
+  rounded: undefined,
+};
+
 export const lightTheme = {
   ...MD3LightTheme,
   colors: {
