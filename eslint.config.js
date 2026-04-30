@@ -16,6 +16,20 @@ module.exports = defineConfig([
     },
   },
   {
+    // ✅ 修复：配置 import/no-unresolved 忽略 @env 等 RN 特殊模块
+    rules: {
+      'import/no-unresolved': [
+        'error',
+        {
+          ignore: [
+            '^@env$',         // react-native-dotenv 的环境变量模块
+            '^@/',            // 路径别名 @/xxx
+          ],
+        },
+      ],
+    },
+  },
+  {
     ignores: ['dist/*'],
   },
 ]);

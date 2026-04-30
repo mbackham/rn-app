@@ -1,8 +1,6 @@
-第 1 周：项目初始化 + 开发环境
-Day 1（周一）：项目脚手架
+Day 5（周五）：UI 基础 + 主题 ✅
 
-- 使用 create-expo-app 初始化项目
-- 配置 TypeScript 严格模式
-- 配置 ESLint + Prettier + Husky
-- 初始化 Git 仓库 + .gitignore
-- 安装核心依赖（expo-router、zustand、react-query
+- 引入 react-native-paper + 自定义主题 ✅
+- 配置全局字体（SafeAreaView、StatusBar）✅
+- 封装通用组件壳：Loading、ErrorBoundary、EmptyState ✅
+- 周五小结：跑出一个带主题的欢迎页 ✅
